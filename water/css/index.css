@@ -1,0 +1,229 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 8px #007acc;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+#st h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#st .new{
+        background-color:#007acc ;
+        width: 150px;
+        height: 3px;
+        margin: 10px auto;
+        margin-bottom:50px ;
+}
+.row .card .card-body h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:#007acc;
+   display: inline;
+}
+.row .card .card-body .icon{
+    color: #007acc;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.row .card{
+    border: none;
+    background-color: aliceblue;
+}
+
+    
+
+.row .card .card-body p{
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#home{
+    position: absolute;
+    top: 50%;
+    left: 26%;
+}
+#intro  button-1{
+    border:none;
+    border-radius: 50%;
+    background-color:#0078d7 ;
+    padding:7px 9px;
+    margin:3px ;
+}
+#intro  button-2{
+    border:none;
+    border-radius: 50%;
+    background-color:#1da1f3 ;
+    padding:6px 8px ;
+    margin:3px ;
+}    
+#intro  button-3{
+    border:none;
+    border-radius: 50%;
+    background-color:#f36525 ;
+    padding:6px ;
+    margin:3px
+}
+#intro .icon{
+    color:white;
+}
+#intro{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+.ws{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+.ws .new1{
+    background-color:#007acc ;
+    width: 130px;
+    height: 3px;
+    margin: 10px auto;
+    margin-bottom:50px ;
+}
+.cities h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cities .ww{
+    background-color:#007acc ;
+    width: 130px;
+    height: 3px;
+    margin: 10px auto;
+    margin-bottom:50px ;
+}
+.row .text-center p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;}
+#ct .row p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri,'Trebuchet MS', sans-serif;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+#ct .yesh p{
+    font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+    text-align: center;
+}
+/footer style strat/
+
+#footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #06121e;
+    padding-bottom:110px ;
+}
+#footer .row .col{
+    width: 33.33%;
+
+}
+#footer .row .col h3{
+    color: #277d74;
+    padding-top:50px ;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:20px ;
+}
+#footer .row .col  .add span{
+    color: #b40f1f;
+    padding-left:80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px ;
+    
+}
+#footer .row .col  .add P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:8px ;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#footer .row .col  .us P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:13px;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#footer .row .col  .us span{
+    color: #b40f1f;
+    padding-left:80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px ;
+}
+#footer .row .col  .letter input{
+    margin-left:80px ;
+    padding:8px ;
+    border: #06121e 1px solid;
+}
+#footer .row .col  .letter button{
+    padding:8px 13px;
+    background-color: #c50e20;
+    color:white ;
+    border:none ;
+    margin-left:-2px ;
+    border: #06121e 1px solid;
+}
+#footer .row .col  .letter P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:13px;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#last .end{
+    color:#fffffd ;
+    padding:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #000000;
+}
+#last span{
+    color: #fa3500;
+}
